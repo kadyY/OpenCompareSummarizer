@@ -22,7 +22,7 @@ public class GettingStartedTest {
     public void testGettingStarted() throws IOException {
 
         // Define a file representing a PCM to load
-        File pcmFile = new File("pcms/example.pcm");
+        File pcmFile = new File("pcms/model/Comparison_between_Esperanto_and_Novial_3.pcm");
 
         // Create a loader that can handle the file format
         PCMLoader loader = new KMFJSONLoader();
